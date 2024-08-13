@@ -1,0 +1,37 @@
+{
+    "type": "Drill",
+    "name": "Magnum drill",
+    "description":"it extracts resources",
+    "size": 3,
+    "drillTime": 350,
+    "tier": 3,
+    "floatRotateSpeed": 4,
+    "drillEffectChance": 1.5,
+    "itemCapacity":10,
+    "drawMineItem":false,
+  "requirements":
+  [
+    {"item":"magnum","amount":15}
+  ],
+  "consumes": 
+  {
+    "liquid":
+    {
+      "liquid": "water",
+      "amount": 0.009,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "research": 
+  {
+    "parent": "fall",
+    "requirements": 
+    [
+      {"item": "magnum", "amount": 250}
+    ]       
+  },
+  "category":"production"
+}
+
+
