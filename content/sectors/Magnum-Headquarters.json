@@ -1,0 +1,11 @@
+{
+"difficulty": 5,
+"planet": "aprotix",
+"sector": 63,
+  "research": {
+    "parent": "launch"
+      "type": "SectorComplete",
+      "preset": "launch"
+    }
+}
+
