@@ -1,0 +1,29 @@
+{
+   "type": "battery",
+   "name": "magnum battery",
+   "description": "mini battery",
+   "size": 1,
+   "consumes": {
+        "powerBuffered": 140
+    },
+  "requirements":
+  [
+    {"item": "magnum", "amount": 50},
+    {"item": "voltrum", "amount": 10}
+  ],
+  "research": {
+  "parent": "magnum_node",
+  "requirements":
+  [
+    {"item": "magnum", "amount": 800},
+    {"item": "voltrum", "amount": 650}
+  ]
+  },
+  "category":"power"
+}
+
+
+
+
+
+

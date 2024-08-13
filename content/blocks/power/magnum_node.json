@@ -1,0 +1,43 @@
+{
+  "type": "PowerNode",
+  "name":"Magnum node",
+  "description":",",
+  "health": 70,
+  "consumes": {
+  "powerBuffered": 10
+  },
+  "size": 1,
+  "baseExplosiveness": 8,
+  "requirements": [
+  "magnum/6",
+  ],
+  "category": "power",
+  "research": {
+  "parent": "lava_generator",
+  "requirements": [
+  {"item": "magnum", "amount": 120},
+
+  ]
+  },
+  "destroyEffect": {
+  "type": "ExplosionEffect",
+  "waveRad": 10,
+  "waveLife": 8,
+  "waveColor": "FFCD66FF",
+  "sparkLen": 4,
+  "sparkStroke": 3,
+  "sparkRad": 20,
+  "sparks": 8,
+  "smokes": 0
+  },
+  "maxNodes": 10,
+  "laserColor1": "FFFFA3FF"
+  "laserColor2": "FFCD66FF"
+  "laserRange": 10,
+  "laserScale": 0.45,
+  "fogRadius": 1
+}
+
+
+
+
