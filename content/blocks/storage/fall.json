@@ -1,0 +1,34 @@
+{
+  "type": "CoreBlock",
+  "name": "Fall",
+  "description": "the starting core",
+  "size": 2,
+  "alwaysUnlocked":true,
+  "health": 600,
+  "armour":5,
+  "itemCapacity": 3000,
+  "requirements": [
+    {
+      "item": "magnum",
+      "amount": 1200
+    },
+    {
+      "item": "termium",
+      "amount":400
+    }
+    
+  ],
+  "category": "effect",
+  "research":{
+    "root": true,
+    "name": "CAPITAL_PR0GRESS ",
+	"planet": "aprotix"
+  },
+  "unitType": "uprising",
+  "unitCapModifier": 12,
+  "isFirstTier":true,
+  "incinerateNonBuildable":true
+}
+
+
+

@@ -1,0 +1,35 @@
+{
+  "type": "CoreBlock",
+  "name": "Proccess",
+  "description": "2 the core of the research branch. produces a combat unit connect",
+  "size": 3,
+  "alwaysUnlocked":false,
+  "health": 1200,
+  "armour":7,
+  "itemCapacity": 3500,
+  "requirements": [
+    {
+      "item": "magnum",
+      "amount": 2400
+    },
+    {
+      "item": "termium",
+      "amount":1000
+    }
+    
+  ],
+  "category": "effect",
+  "research": 
+  {
+    "parent": "fall",
+    "requirements": 
+    [
+      {"item": "magnum", "amount": 250},
+      {"item": "termium", "amount": 250}
+    ]       
+  },
+  "unitType": "connect",
+  "unitCapModifier": 16,
+  "incinerateNonBuildable":true
+}
+
