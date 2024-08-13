@@ -1,0 +1,23 @@
+{
+  "type": "CellLiquid",
+  "coolant": false,
+  "moveThroughBlocks": true,
+  "canStayOn": [],
+  "incinerable": true,
+  "spreadDamage": 200,
+  "capPuddles": true,
+  "name": "Lava",
+  "description": "AAA.",
+  "heatCapacity": 0.3,
+  "explosiveness": 0,
+  "temperature": 1.5,
+  "color": "FF7733FF",
+  "blockReactive": true,
+  "maxSpread": 1,
+  "viscosity": 0.95,
+  "flammability": 0,
+  "research": {
+    "parent": "magnum"
+  }
+}
+
