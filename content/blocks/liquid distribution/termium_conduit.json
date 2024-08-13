@@ -1,0 +1,28 @@
+{
+  "type": "Conduit",
+  "name": "Termium conduit",
+  "description": "transports liquids",
+  "health": 40,
+  "liquidPressure": 1.2,
+  "liquidCapacity":5,
+  "requirements": [
+    {
+      "item": "termium",
+      "amount": 2
+    }
+  ],
+  "category": "liquid",
+  "research": 
+  {
+   "parent": "termium_pump",
+   "requirements":
+   [
+    {"item": "termium", "amount":20}
+   ]
+  },
+  "leaks":false,
+  "placeableLiquid": true,
+  "underBullets":true
+}
+
+

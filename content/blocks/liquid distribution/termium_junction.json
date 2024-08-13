@@ -1,0 +1,26 @@
+{
+  "name": "Termium Junction",
+  "description":"transports liquids",
+  "type": "LiquidJunction",
+  "health": 25,
+  "category": "liquid",
+  "hasPower": false,
+  "requirements": [
+  {
+    "item":"termium",
+    "amount":2
+  }
+  ],
+  "placeableLiquid": true,
+  "underBullets":true,
+  "research":
+  {
+    "parent": "termium_conduit",
+    "requirements":
+    [
+      {"item": "termium", "amount":60}
+    ]
+  }
+}
+
+

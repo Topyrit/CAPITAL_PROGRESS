@@ -1,0 +1,23 @@
+{
+  "type": "Pump",
+  "name": "Termium pump",
+  "description": " pumps out liquids",
+  "hasLiquids": true,
+  "liquidCapacity": 20,
+  "size": 1,
+  "pumpAmount": 0.25,
+  "category": "liquid",
+  "requirements": [
+    "termium/10"
+  ],
+  "squareSprite": false,
+  "research": 
+  {
+   "parent": "fall",
+   "requirements":
+   [
+    {"item": "termium", "amount":100}
+     ]
+  }
+}
+

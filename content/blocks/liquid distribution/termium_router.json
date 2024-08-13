@@ -1,0 +1,28 @@
+{
+  "name": "Termium router",
+  "description": "transports liquids",
+  "type": "LiquidRouter",
+  "health": 40,
+  "liquidCapacity": 20,
+  "category": "liquid",
+  "placeableLiquid": true,
+  "hasPower": false,
+  "requirements":
+  [
+  {
+    "item":"termium",
+    "amount":3
+  }
+  ],
+  "research": 
+  {
+  "parent": "termium_junction",
+  "requirements":
+    [
+    {"item": "termium", "amount":60}
+    ]
+  }
+}
+
+
+
