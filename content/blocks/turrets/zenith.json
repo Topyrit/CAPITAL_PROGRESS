@@ -1,0 +1,84 @@
+{
+    "type": "ItemTurret",
+    "name": "zenith",
+    "health": 90,
+    "outlineRadius": 0,
+    "reload": 30,
+    "shootSound": "blaster",
+    "range": 255,
+    "size": 2,
+  "consumes": { 
+      "coolant": { 
+         "amount": 0.1
+      } 
+    },
+    "maxAmmo": 15
+    "shoot": {
+      "type": "ShootAlternate",
+      "shots": 3,
+      "spread": 0,
+      "shotDelay": 5
+    },
+    "inaccuracy": 16,
+    "targetAir": true,
+    "targetGround": false,
+    "ammoTypes": {
+      "magnum": {
+        "speed": 5,
+        "ammoMultiplier": 1,
+        "shots": 3,
+        "barrels": 3,
+        "shotDelay": 5,
+        "ejectEffect": "casing3",
+        "frontColor": FFFFA3FF,
+        "backColor": FFFFA3FF,
+        "type": "BasicBulletType",
+        "damage": 5,
+        "hitSound": "explosion",
+        "trailColor": "FFFFA3FF",
+        "trailLength": 5.2,
+        "trailWidth": 5,
+        "absorbable": false,
+        "lightColor": "FFFFA3FF",
+        "width": 12,
+        "lifetime": 51,
+        "height": 15,
+        "collidesAir": true,
+        "collidesGround": false,
+        "homingPower": 1
+        "homingRange": 100
+        "homingDelay": 9
+    },
+    },
+"drawer": {
+      "type": "DrawTurret",
+      "parts": [
+      {
+          "type": "RegionPart",
+          "mirror": false,
+          "suffix": "-part1",
+          "progress": "warmup",
+          "under": true,
+          "moveX": 0,
+          "moveY": 0,
+          "moveRot": 35
+        },
+        {
+          "type": "RegionPart",
+          "mirror": false,
+          "suffix": "-part2",
+          "progress": "warmup",
+          "under": true,
+          "moveX": 0,
+          "moveY": 0,
+          "moveRot": -35,
+    }
+    ]
+    },
+    "requirements": [
+"magnum/50",
+"voltrum/15"
+    ],
+    "category": "turret"
+}
+

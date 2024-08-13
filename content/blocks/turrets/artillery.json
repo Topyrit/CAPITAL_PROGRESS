@@ -1,0 +1,78 @@
+{
+    "type": "ItemTurret",
+    "name": "Artillery",
+    "health": 1050,
+    "outlineRadius": 3,
+    "reload": 120,
+    "shootSound": "artillery",
+    "range": 405,
+    "size": 3,
+  "consumes": { 
+      "coolant": { 
+         "amount": 0.2
+      } 
+    },
+    "shoot": {
+      "type": "ShootAlternate",
+      "shots": 1,
+      "spread": 0,
+      "shotDelay": 7.5
+    },
+    "inaccuracy": 0,
+    "targetAir": false,
+    "targetGround": true,
+    "ammoTypes": {
+      "magnum": {
+        "speed": 4,
+        "ammoMultiplier": 3,
+        "shots": 5,
+        "barrels": 3,
+        "spread": 1.5,
+        "shotDelay": 5,
+        "ejectEffect": "casing3",
+        "frontColor": FFFFA3FF,
+        "backColor": FFFFA3FF,
+        "type": "ArtilleryBulletType",
+        "splashDamage": 115,
+        "splashDamageRadius": 18,
+        "hitSound": "explosion",
+        "trailColor": "FFFFA3FF",
+        "trailLength": 8.8,
+        "trailWidth": 5.9,
+        "absorbable": false,
+        "lightColor": "FFFFA3FF",
+        "width": 22,
+        "lifetime": 25,
+        "height": 22,
+        "collides": false,
+        "collidesTiles": true,
+        "collidesAir": false,
+        "fragBullets": 3,
+        "fragLifeMin": 0.35,
+        "fragBullet": {
+          "speed": 0.6,
+          "frontColor": FFFFA3FF,
+          "backColor": FFFFA3FF,
+          "type": "ArtilleryBulletType",
+          "hitSound": none,
+          "splashDamage": 10,
+          "splashDamageRadius": 8,
+          "lightColor": "FFFFA3FF",
+          "width": 7,
+          "lifetime": 9,
+          "height": 7,
+          "collides": false,
+          "collidesTiles": true,
+          "collidesAir": false,
+    }
+    },
+    },
+    "requirements": [
+magnum/75
+voltrum/30
+crystal/20
+processed_magnum/50
+    ],
+    "category": "turret"
+}
+
