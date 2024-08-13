@@ -1,0 +1,15 @@
+{
+  "name": "voltum wall",
+  "description": "[violet] Wall.",
+  "type": "Wall",
+  "health": 450,
+  "size": 1,
+  "requirements": [
+    {
+      "item": "voltrum",
+      "amount": 15
+    }
+  ],
+  "category": "defense"
+}
+

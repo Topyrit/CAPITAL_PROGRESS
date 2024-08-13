@@ -1,0 +1,14 @@
+{
+  "name": "termium big wall",
+  "description": "[crimson] Wall.",
+  "type": "Wall",
+  "health": 1240,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "termium",
+      "amount": 35
+    }
+  ],
+  "category": "defense"
+}

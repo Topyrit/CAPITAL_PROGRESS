@@ -1,0 +1,14 @@
+{
+  "name": "termium wall",
+  "description": "[crimson] Wall.",
+  "type": "Wall",
+  "health": 350,
+  "size": 1,
+  "requirements": [
+    {
+      "item": "termium",
+      "amount": 10
+    }
+  ],
+  "category": "defense"
+}

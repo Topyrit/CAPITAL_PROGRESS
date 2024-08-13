@@ -1,0 +1,14 @@
+{
+  "name": "magnum wall",
+  "description": "[gold] Wall.",
+  "type": "Wall",
+  "health": 650,
+  "size": 1,
+  "requirements": [
+    {
+      "item": "magnum",
+      "amount": 5
+    }
+  ],
+  "category": "defense"
+}
