@@ -1,0 +1,18 @@
+{
+  "name": "Processed magnum",
+  "description": "Processed magnum is used in the creation of medium combat units and electric buildings",
+  "hardness": 3,
+  "cost": 3,
+  "color": "E28654FF",
+  "tier": 3,
+  "radioactivity": 0,
+  "flammability":0,
+  "explosiveness": 0,
+  "localizedName": "Processed magnum",
+  "color": "E28654FF",
+  "research": {
+    "parent": "magnum"
+  }
+}
+
+

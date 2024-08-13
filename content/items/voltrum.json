@@ -1,0 +1,24 @@
+{
+  "name": "Voltrum",
+  "description": "The third is the main resource",
+  "hardness": 1,
+  "cost": 1,
+  "color": "A14553FF",
+  "tier": 1,
+  "radioactivity": 0,
+  "flammability":0.40,
+  "explosiveness": 0,
+  "localizedName": "Voltrum",
+  "color": "FFCD66FF",
+  "research": {
+    "parent": "magnum"
+  }
+}
+
+
+
+
+
+
+
+

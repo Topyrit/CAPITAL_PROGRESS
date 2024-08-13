@@ -1,0 +1,21 @@
+{
+  "name": "Magnum",
+  "description": "starting resource",
+  "hardness": 1,
+  "cost": 1,
+  "color": "A14553FF",
+  "tier": 1,
+  "radioactivity": 0.05,
+  "flammability":0,
+  "explosiveness": 0,
+  "localizedName": "Magnum",
+  "color": "FFCD66FF",
+  "research": {
+    "parent": "fall"
+  }
+}
+
+
+
+
+

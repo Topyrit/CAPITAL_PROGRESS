@@ -1,0 +1,20 @@
+{
+  "name": "[pink]crystal",
+  "description": "Crystals are used in high-precision devices",
+  "hardness": 3,
+  "cost": 3,
+  "color": "A14553FF",
+  "tier": 3,
+  "radioactivity": 0.03,
+  "flammability":0.03,
+  "explosiveness": 0.03,
+  "localizedName": "crystal",
+  "color": "FFCD66FF",
+  "research": {
+    "parent": "voltrum"
+  }
+}
+
+
+
+

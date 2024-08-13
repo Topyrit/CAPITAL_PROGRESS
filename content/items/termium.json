@@ -1,0 +1,16 @@
+{
+  "name": "Termium",
+  "description": "the second main resource",
+  "hardness": 1,
+  "cost": 1,
+  "color": "A14553FF",
+  "tier": 1,
+  "radioactivity": 0.50,
+  "flammability":0.95,
+  "explosiveness": 0,
+  "research": {
+    "parent": "magnum"
+  }
+}
+
+
