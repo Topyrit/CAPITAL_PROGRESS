@@ -1,0 +1,57 @@
+{
+  "type": "GenericCrafter",
+  "liquidCapacity": 60,
+  "itemCapacity":10,
+  "name":"Volmat smelter",
+  "description": "creates a volmat from magnum and voltrum",
+  "size":2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 120,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "pulverizeMedium",
+  "consumes": {
+    "power":2.6,
+    "liquid":"liquid_lava/0.2",
+        "items": {
+      "items": [
+        "voltrum/1",
+        "magnum/1"
+      ]
+  }
+  },
+  "outputItem": "volmat/1",
+  "requirements":[
+    {"item": "voltrum","amount":65},
+    {"item": "crystal","amount":50}
+   ],
+  "category": "crafting",
+  "idleSound": "respawning",
+  "idleSoundVolume":0.3,
+  "drawer": {
+  "type": "DrawMulti",
+  "drawers": [
+      {
+        "type": "DrawDefault" 
+      }
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-top",
+        "color": "dbaf85"
+      }
+      ]
+  },
+  "research": {
+  "parent": "magnum_shredder",
+  "requirements":
+  [
+    {"item": "magnum", "amount": 1000},
+    {"item": "voltrum", "amount": 750}
+  ]
+  }
+}
+
+
+
+

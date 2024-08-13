@@ -1,0 +1,52 @@
+{
+  "type": "GenericCrafter",
+  "name": "Magnum shredder",
+  "description": "grinds magnum to a dusty state, requires energy to work",
+  "outputItem": "processed_magnum/1",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-spinner",
+        "rotateSpeed": -3.25
+      }
+    ]
+  },
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "craftTime": 30,
+  "updateEffect": "pulverizeSmall",
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        {
+          "item": "magnum",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "magnum",
+      "amount": 30
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "magnum_drill"
+  },
+  "ambientSound": "respawning",
+  "ambientSoundVolume": 0.2
+}
+
+
+
+
