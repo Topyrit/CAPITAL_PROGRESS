@@ -1,0 +1,93 @@
+{ 
+  "localizedName": "Aprotix",
+  "description": "The planet where the mod takes place",
+  "alwaysUnlocked": true,
+  "mesh": {
+  "type": "NoiseMesh",
+  "planet": "aprotix",
+  "seed": 69,
+  "divisions": 5,
+  "color1": "C85C51FF",
+  "color2": "515151FF",
+  "color3": "E28654FF",
+  "radius": 1.2,
+  "octaves": 4,
+  "persistence": 1.2,
+  "scale": 0.75,
+  "mag": 1
+  },
+  "cloudMesh": {
+    "type": "HexSkyMesh",
+  "planet": "aprotix",
+  "seed": 1,
+  "speed": 5.32,
+  "radius": 0.2,
+  "divisions": 5,
+  "color": "E28654FF",
+  "octaves": 3,
+  "persistence": 0.8,
+  "scl": 1,
+  "thresh": 0.6
+  },
+  "generator": {
+    "type": "PlanetGenerator",
+    "octaves": 3,
+    "persistence": 1,
+    "scale": 22,
+    "mag": 0.721,
+    "thresh": 1.152,
+    "min": 100,
+    "max": 100,
+    "radMin": 220,
+    "radMax": 600,
+    "iceChance": 0.31
+  },
+  "sectorSize": 1.5,
+  "allowLaunchSchematics": false,
+  "allowLaunchLoadout": false,
+  "allowSectorInvasion": true,
+  "startSector": 64,
+  "orbitSpacing": 4,
+  "radius": 1.2,
+  "minZoom": 0.9,
+  "drawOrbit": true,
+  "atmosphereRadIn": 0,
+  "atmosphereRadOut": 0.7,
+  "accessible": false,
+  "orbitRadius": 24,
+  "updateLighting": false,
+  "sectorSeed": 69420,
+  "bloom": false,
+  "visible": true,
+  "atmosphereColor": "FF795EFF",
+  "iconColor": "4b64a9",
+  "hasAtmosphere": true,
+  "allowWaveSimulation": true,
+  "clearSectorOnLose": true,
+  "allowWaves": true,
+  "prebuildBase": false,
+  "defaultCore": "fall",
+  "parent": "sun",
+  "solarSystem": "sun",
+  "launchCandidates": [],
+  "hiddenItems": ["beryllium", "carbide", "tungsten", "fissile-matter", "oxide", "lead", "copper", ],
+  "allowLaunchToNumbered": false
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
