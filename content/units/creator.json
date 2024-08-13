@@ -1,0 +1,55 @@
+{
+    "name": "creator",
+    "description": "Treating ally units and buildings building buildings and attacking enemy units",
+    "type": "flying",
+    "shadowElevation": 0.1
+    "controller": BuilderAI
+    "payloadCapacity": 2
+    "fogRadius": 5
+    "speed": 1.5
+    "isEnemy": false
+    "flying": true,
+    "lowAltitude": true
+    "buildSpeed": 0.5
+    "rotateSpeed": 7
+    "health": 80
+    "armor": 1
+    "hitSize": 13
+    "useEngineElevation": false
+    "engineOffset": 7.5
+    "engineSize": 5
+    "engineColor": FFCD66B7
+    "abilities": [
+    {
+        "type": "MoveEffectAbility"
+        x: 0
+        y: -7.5
+        "color": FFCD66B7
+        }
+        {
+        "type": "EnergyFieldAbility"
+        x: 0
+        y: 0
+        "damage": 5
+        "reload": 200
+        "status": none
+        "healPercent": 5
+        "effectRadius": 1
+        "Radius": 5
+        "rotateSpeed": 4
+        "maxTargets": 5
+        "color": FFCD66B7
+        }
+    ]
+  "research": {
+     "parent": "save",
+     "requirements": [
+       {"item": "magnum", "amount": 475},
+    {"item": "processed_magnum", "amount": 225}
+    {"item": "voltrum", "amount": 200}
+    {"item": "termium", "amount": 125}
+     ]
+     
+   }
+}
+

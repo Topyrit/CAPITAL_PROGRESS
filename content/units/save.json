@@ -1,0 +1,84 @@
+{
+  "type": "flying",
+  "armor":1,
+  "mineTier":1,
+  "flying": true,
+  "name": "Save",
+  "description": "a help unit v2",
+  "healFlash": true,
+  "speed": 1.8,
+  "engineSize": 3.15,
+  "engineOffset": 6.7,
+  "accel": 0.08,
+  "mineSpeed": 1.9,
+  "drag": 0.04,
+  "outlineColor":"3C3838FF",
+  "outlines":true,
+  "outlineRadius":2.3,
+  "fogRadius": 5,
+  "shadowElevation":0.7,
+  "health": 130,
+  "targetFlags": ["turret"],
+  "hitSize": 12,
+  "itemCapacity": 85,
+  "weapons": [
+     {
+      "name":"regen",
+      "x":  0,
+      "y": -2,
+      "mirror":false,
+      "rotate": true,
+      "rotateSpeed":5.5
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 1,
+        "barrels": 3,
+        "spread": 1.5,
+        "shotDelay": 5
+      },
+      "reload": 75,
+      "inaccuracy": 3,
+      "shootSound": "sap",
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 25,
+        "collidesTeam": true,
+        "Color":"FFFFA3FF",
+        "frontColor": "FFFFA3FF",
+        "backColor": "E28654FF",
+        "speed": 3.7,
+        "trailLength": 1.5,
+        "trailColor": "E28654FF",
+        "height": 5,
+        "healPercent": 5.7,
+        "width": 5,
+        "shrinkY": 0,
+        "splashDamageRadius": 25,
+        "splashDamage": 5,
+        "hitEffect": "hitLaser",
+
+     }
+     }
+     
+     
+   ],
+   "research": {
+     "parent": "miner",
+     "requirements": [
+       {"item": "magnum", "amount": 450},
+    {"item": "processed_magnum", "amount": 250}
+     ]
+     
+   }
+}
+
+
+
+
+
+
+
+
+
+
+

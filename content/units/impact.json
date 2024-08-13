@@ -1,0 +1,79 @@
+{
+   "name": "Impact",
+   "description": "unit 2 tier",
+   "type": "legs",
+   "health": 445,
+   "speed": 0.8,
+   "hitSize":6,
+   "flying": false,
+   "armor": 1.2,
+   "range": 70,
+   "stepShake":0.1,
+   "legSplashDamage": 2,
+   "legSplashRange": 5,
+   "drag": 0.3,
+   "canDrown":true,
+   "drownTimeMultiplier":1,
+   "legCount":6,
+   "legLength":10,
+   "accel": 0.4,
+   "targetGround": true,
+   "targetAir": true,
+   "outlineColor":"3C3838FF",
+   "outlines":true,
+   "outlineRadius":4
+   
+   "weapons": [
+     {
+      "name":"paradox",
+      "x": 0,
+      "y": -2,
+      "mirror":false,
+      "rotate": true,
+      "rotateSpeed":1.5
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 3,
+        "barrels": 3,
+        "spread": 1.5,
+        "shotDelay": 5
+      },
+      "reload": 75,
+      "inaccuracy": 3,
+      "shootSound": "blast",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 12,
+        "Color":"FFFFA3FF",
+        "frontColor": "FFFFA3FF",
+        "backColor": "E28654FF",
+        "speed": 3.7,
+        "trailLength": 1.5,
+        "trailColor": "E28654FF",
+        "height": 5,
+        "width": 5,
+        "shrinkY": 0,
+        "splashDamageRadius": 25,
+        "splashDamage": 5,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion"
+     }
+     }
+     
+     
+   ],
+   "research": {
+     "parent": "gasp",
+     "requirements": [
+       {"item": "magnum", "amount": 350},
+    {"item": "processed_magnum", "amount": 200}
+     ]
+     
+   }
+}
+
+
+
+
+
+

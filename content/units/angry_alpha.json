@@ -1,0 +1,47 @@
+{
+  "type": "mech",
+  "name": "Angry alpha",
+  "description": ">:(",
+  "defaultController": "SuicideAI",
+  "speed": 5,
+  "hitSize": 8,
+  "health": 88005553535,
+  "mechSideSway": 0.25,
+  "range": 40,
+  "weapons": [
+    {
+      "shootOnDeath": true,
+      "reload": 24,
+      "shootCone": 180,
+      "ejectEffect": "none",
+      "shootSound": "fart1",
+      "x": 0,
+      "shootY": 0,
+      "mirror": false,
+      "bullet": {
+        "collides": false,
+        "status": "none",
+        "collidesTiles": false,
+        "hitSound": "explosion",
+        "rangeOverride": 30,
+        "hitEffect": "pulverize",
+        "speed": 0,
+        "splashDamageRadius": 80000,
+        "instantDisappear": true,
+        "splashDamage": 90000,
+        "killShooter": true,
+        "hittable": false,
+        "collidesAir": true,
+        "damage": 0
+      }
+    }  
+  ],
+  "canBoost":true,
+  "canDrown":false,
+  "boostMultiplier":5,
+  "outlineColor":"FF0000",
+  "outlines":true,
+  "outlineRadius":2
+}
+
+

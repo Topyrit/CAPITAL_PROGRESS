@@ -1,0 +1,57 @@
+{
+  "name": "Gasp",
+  "controller": "SuicideAI",
+  "type": "mech",
+  "mechSideSway": 0.25,
+  "armor": 0,
+  "speed": 2,
+  "hitSize": 9,
+  "flying": false,
+  "health": 120,
+  "range": 60,
+  "weapons": 
+  [
+    {
+    "name": "boom",
+    "reload": 24,
+    "shootCone": 180,
+    "ejectEffect": "none",
+    "shootSound": "explosion",
+    "bullet": 
+      {
+      "type": "BombBulletType",
+      "lightningColor": "FFFFA3FF",
+      "lightning": 5,
+      "lightningDamage": 28,
+      "lightningLength": 6,
+      "lightningCone": 360,
+      "lightningLengthRand": 6,
+      "hitEffect": "pulverize",
+      "lifetime": 10,
+      "speed": 1,
+      "splashDamageRadius": 58,
+      "instantDisappear": true,
+      "splashDamage": 98,
+      "killShooter": true,
+      "hittable": false,
+      "collidesAir": true
+       }
+    }
+  ],
+  "research": 
+  {
+   "parent": "spider-constructor",
+   "requirements":
+   [
+    {"item": "magnum", "amount": 350},
+    {"item": "processed_magnum", "amount": 200}
+     ]
+  },
+  "outlineColor":"3C3838FF",
+  "outlines":true,
+  "outlineRadius":2.5
+}
+
+
+
+

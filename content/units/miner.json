@@ -1,0 +1,48 @@
+{
+  "type": "flying",
+  "controller": "minerAI",
+  "mineTier": 2,
+"mineItems": [
+    "termium",
+    "magnum",
+    "voltrum"
+  ],
+  "flying": true,
+  "mineHardnessScaling": true,
+  "mineWalls": true,
+  "mining": true,
+  "name": "miner",
+  "description": "a miner unit",
+  "fogRadius": 5,
+  "healFlash": true,
+  "playerControllable": false,
+  "speed": 1.4,
+  "engineSize": 2.2,
+  "engineOffset": 5.75,
+  "accel": 0.08,
+  "mineSpeed": 3.9,
+  "trailColor": "FFFFA3FF",
+  "drag": 0.04,
+  "shadowElevation":0.7,
+  "health": 70,
+  "targetFlags": ["turret"],
+  "hitSize": 12,
+  "itemCapacity": 45,
+  "weapons": [],
+  "outlineColor":"3C3838FF",
+  "outlines":true,
+  "outlineRadius":2
+  "research": {
+     "parent": "help_factory",
+     "requirements": [
+       {"item": "magnum", "amount": 450},
+    {"item": "processed_magnum", "amount": 250}
+     ]
+     
+   }
+}
+
+
+
+
+
