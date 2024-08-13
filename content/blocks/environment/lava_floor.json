@@ -1,0 +1,16 @@
+{
+"name": "Lava",
+"type": "floor",
+"speedMultiplier": 0.2,
+"drownTime": 90,
+"variants": 0,
+"status": "melting",
+"statusDuration": 700,
+"cacheLayer": "water",
+"color": "FF7733FF",
+"albedo": 0.5,
+"isLiquid": true,
+"liquidDrop": "liquid_lava",
+"liquidMultiplier": 1
+}
+

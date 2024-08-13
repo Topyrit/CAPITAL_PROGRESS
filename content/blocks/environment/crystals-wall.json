@@ -1,0 +1,9 @@
+{
+  "type": "StaticWall",
+  "name": "crystal wall",
+  "variants": 3,
+
+   "attributes": {
+   "crystal": 1
+}
+}
