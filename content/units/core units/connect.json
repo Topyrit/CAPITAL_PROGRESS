@@ -1,0 +1,38 @@
+{
+  "type": "flying",
+  "armor":1,
+  "buildSpeed":1,
+  "mineTier":2,
+  "coreUnitDock":true,
+  "flying": true,
+  "name": "connect",
+  "description": "a unit from the proccess core"  "engineOffsetY": -8f,
+  "healFlash": true,
+  "speed": 2.4,
+  "engineSize": 6,
+  "accel": 0.08,
+  "mineSpeed": 8.9,
+  "drag": 0.04,
+  "shadowElevation":0.7,
+  "health": 200,
+  "engineOffset": 2.75,
+  "targetFlags": ["turret"],
+  "hitSize": 12,
+  "itemCapacity": 45,
+  "weapons": [],
+  "outlineColor":"3C3838FF",
+  "outlines":true,
+  "outlineRadius":4
+}
+
+
+
+
+
+
+
+
+
+
+
+

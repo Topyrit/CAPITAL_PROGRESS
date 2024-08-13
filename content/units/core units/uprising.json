@@ -1,0 +1,30 @@
+{
+  "type": "flying",
+  "armor":0,
+  "buildSpeed":1.2,
+  "mineTier":1,
+  "coreUnitDock":true,
+  "flying": true,
+  "mineSpeed": 7.5,
+  "engineSize": 5,
+  "name": "Uprising",
+  "healFlash": true,
+  "description": "",
+  "speed": 2.5,
+  "accel": 0.08,
+  "drag": 0.04,
+  "shadowElevation":0.7,
+  "health": 120,
+  "engineOffset": 2.75,
+  "targetFlags": ["turret"],
+  "hitSize": 12,
+  "itemCapacity": 10,
+  "weapons": [],
+  "outlineColor":"3C3838FF",
+  "outlines":true,
+  "outlineRadius":4
+}
+
+
+
+
