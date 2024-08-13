@@ -1,0 +1,53 @@
+{
+  "type": "UnitFactory",
+  "researchCostMultiplier": 0.3,
+  "size": 3,
+  "consumes": {
+    "power": 6
+  },
+  "plans": [
+    {
+      "unit": "gasp",
+      "requirements": [
+        "magnum/25",
+        "processed_magnum/5"
+      ],
+      "time": 200
+    },
+    {
+      "unit": "impact",
+      "requirements": [
+        "magnum/70",
+        "processed_magnum/40"
+      ],
+      "time": 300
+    }
+    {
+      "unit": "rexotus",
+      "requirements": [
+        "magnum/150",
+        "processed_magnum/50",
+        "voltrum/45"
+        "volmat/50"
+      ],
+      "time": 425
+    }
+  ],
+  "requirements": [
+    {
+      "item": "magnum",
+      "amount": 60
+    },
+    {
+      "item": "voltrum",
+      "amount": 100
+    },
+    {
+      "item": "processed_magnum",
+      "amount": 145
+    }
+  ],
+  "category": "units",
+  "research": "fall"
+}
+
