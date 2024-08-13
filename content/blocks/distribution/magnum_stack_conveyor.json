@@ -1,0 +1,24 @@
+{
+  "type": "StackConveyor",
+  "health": 25,
+  "name":"Magnum stack conveyor",
+  "speed": 0.10,
+  "conveyorPlacement": true,
+  "itemCapacity": 15,
+  "requirements": 
+  [
+    "processed_magnum/20"
+  ],
+  "research":
+  {
+     "parent": "magnum_router",
+     "requirements": 
+     [
+       {"item": "processed_magnum", "amount": 500}
+     ]
+  }
+}
+
+
+
+

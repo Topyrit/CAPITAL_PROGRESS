@@ -1,0 +1,26 @@
+{
+"type": "Router",
+"speed": 8,
+"name": "Magnum router",
+"description": "AOE",
+"details": "Use it",
+"size": 1,
+"health": 40,
+"itemCapacity": 3,
+"requirements": [
+    "magnum/4"
+],
+"category": "distribution",
+"research": 
+  {
+  "parent": "magnum_conveyor",
+  "requirements": 
+    [
+      {"item": "magnum", "amount": 150}
+    ]       
+  }
+}
+
+
+
+

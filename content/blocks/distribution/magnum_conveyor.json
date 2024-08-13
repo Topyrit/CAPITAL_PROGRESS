@@ -1,0 +1,27 @@
+{
+  "type": "Duct",
+  "health": 15,
+  "isDuct": true,
+  "name":"Magnum conveyor",
+  "speed": 6,
+  "itemCapacity": 3,
+  "requirements": 
+  [
+    
+    "magnum/3"
+  ],
+  "research":
+  {
+     "parent": "fall",
+     "requirements": 
+     [
+       {"item": "magnum", "amount": 50}
+     ]
+  }
+}
+
+
+
+
+
+

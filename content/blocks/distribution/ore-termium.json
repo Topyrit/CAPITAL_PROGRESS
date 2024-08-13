@@ -1,0 +1,11 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Termium",
+  "itemDrop": "termium",
+  "hasColor": true,
+  "mapColor": "a61e1e",
+  "variants": 3
+}
+
+
+

@@ -1,0 +1,11 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Magnum",
+  "itemDrop": "magnum",
+  "hasColor": true,
+  "mapColor": "a61e1e",
+  "variants": 3
+}
+
+
+
