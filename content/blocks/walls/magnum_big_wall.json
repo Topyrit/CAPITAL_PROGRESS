@@ -14,9 +14,9 @@
 }
   "research": 
   {
-  "parent": "fall",
+  "parent": "magnum_wall",
   "requirements": 
     [
       {"item": "magnum", "amount": 150}
     ]
-  }
+ }
