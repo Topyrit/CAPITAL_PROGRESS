@@ -1,0 +1,59 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Lava generator",
+  "description": "uses lava to create energy",
+  "SquareSprite": true,
+  "size": 3,
+  "health": 350,
+  "hasLiquids": true,
+  "hasItems": false,
+  "liquidCapacity": 90,
+  "itemCapacity": 0,
+  "drawer": {
+  "type": "DrawMulti",
+  "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "liquid_lava"
+      }
+ {
+        "type": "DrawCircles",
+        "color": "ffc073",
+        "strokeMax": 1,
+        "radius": 10,
+        "amount": 3
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "consumes": {
+    "liquids": [
+    "liquid_lava/0.3"
+    ]
+  },
+  "powerProduction": 3,
+  "category": "power",
+  "requirements": [
+  "magnum/100",
+  "voltrum/75"
+  ],
+  "research": {
+  "parent": "fall",
+  "requirements":
+  [
+    {"item": "magnum", "amount": 1000},
+    {"item": "voltrum", "amount": 750}
+  ]
+  }
+}
+
+
+
+
+
