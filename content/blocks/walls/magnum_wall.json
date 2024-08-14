@@ -14,9 +14,9 @@
 }
   "research": 
   {
-  "parent": "A_magnum_conveyor",
+  "parent": "fall",
   "requirements": 
     [
       {"item": "magnum", "amount": 150}
-    ]       
-  }
+    ]
+}
