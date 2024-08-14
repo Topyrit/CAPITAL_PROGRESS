@@ -1,5 +1,5 @@
 {
-  "Termium bridge conduit",
+  "name":"Termium bridge conduit",
   "type":"LiquidBridge",
   "description":"transports liquids",
   "category": "liquid",
