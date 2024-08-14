@@ -2,5 +2,9 @@
 "difficulty": 3,
 "planet": "aprotix",
 "sector": 64,
+"research": {
+    "parent": "fall"
+      "type": "SectorComplete",
+      "preset": "launch"
+    }
 }
-
