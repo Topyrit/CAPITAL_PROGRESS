@@ -1,0 +1,19 @@
+{
+  "type": "WallCrafter",
+  "name": "mine",
+  "description": "crushes a wall of crystale "
+  "size": 3,
+  "category": "production",
+  "research": "magnum_drill",
+  "requirements": [
+    "voltrum/20"
+  ],
+  "drillTime": 340,
+  "output": "crystal",
+  "attribute": "crystal",
+  "ambientSound": "drill",
+  "ambientSoundVolume": 0.08,
+  "alwaysUnlocked": true,
+  "squareSprite": false
+}
+
