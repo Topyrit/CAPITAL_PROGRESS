@@ -18,7 +18,8 @@
     }
     
   ],
-  "category": "effect",
+"alwaysUnlocked": true,
+"category": "effect",
   "research":{
     "root": true,
     "name": "CAPITAL_PR0GRESS ",
