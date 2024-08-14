@@ -28,7 +28,7 @@
       {"item": "voltrum", "amount": 15}   
    ],
    "research": {
-       "parent": "core1",
+       "parent": "fall",
        "requirements": [
           {"item": "magnum", "amount": 500},
           {"item": "voltrum", "amount": 200}
