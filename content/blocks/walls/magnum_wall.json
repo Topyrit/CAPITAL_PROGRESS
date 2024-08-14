@@ -12,3 +12,11 @@
   ],
   "category": "defense"
 }
+  "research": 
+  {
+  "parent": "A_magnum_conveyor",
+  "requirements": 
+    [
+      {"item": "magnum", "amount": 150}
+    ]       
+  }
