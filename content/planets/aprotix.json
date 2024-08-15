@@ -70,6 +70,7 @@
   "parent": "sun",
   "solarSystem": "sun",
   "launchCandidates": [],
+  "hiddenItems": ["lead", "copper", "silicon", "thorium", "titanium", "plastanium", "metaglass"],
   "itemWhitelist": ["magnum", "termium", "voltrum", "volmat", "crystal", "processed_magnum"],
   "allowLaunchToNumbered": false
 }
