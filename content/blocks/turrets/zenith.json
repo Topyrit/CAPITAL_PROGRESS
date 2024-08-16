@@ -79,6 +79,13 @@
 "magnum/50",
 "voltrum/15"
     ],
+    "research": {
+       "parent": "fall",
+       "requirements": [
+          {"item": "magnum", "amount": 800},
+          {"item": "processed_Magnum", "amount": 300}
+       ]       
+   },
     "category": "turret"
 }
 
