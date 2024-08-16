@@ -20,7 +20,7 @@
     "parent": "magnum_drill",
     "requirements": 
     [
-      {"item": "voltum", "amount": 250}
+      {"item": "voltrum", "amount": 250}
     ]       
   }
 }
