@@ -41,14 +41,14 @@
   "category": "power",
   "requirements": [
   "magnum/100",
-  "voltrum/75"
+  "termium/75"
   ],
   "research": {
   "parent": "fall",
   "requirements":
   [
     {"item": "magnum", "amount": 1000},
-    {"item": "voltrum", "amount": 750}
+    {"item": "termium", "amount": 750}
   ]
   }
 }
