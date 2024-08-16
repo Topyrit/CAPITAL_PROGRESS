@@ -15,5 +15,13 @@
   "ambientSoundVolume": 0.08,
   "alwaysUnlocked": true,
   "squareSprite": false
+"research": 
+  {
+    "parent": "magnum-drill",
+    "requirements": 
+    [
+      {"item": "voltum", "amount": 250}
+    ]       
+  }
 }
 
