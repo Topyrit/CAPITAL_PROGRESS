@@ -12,7 +12,7 @@
   "category": "distribution",
   "research": 
   {
-  "parent": "A_magnum_conveyor",
+  "parent": "magnum_conveyor",
   "requirements": 
     [
       {"item": "magnum", "amount": 150}
