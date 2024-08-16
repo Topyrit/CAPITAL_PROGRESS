@@ -77,7 +77,7 @@ processed_magnum/50
        "parent": "mrak",
        "requirements": [
           {"item": "crystal", "amount": 500},
-          {"item": "processed_Magnum", "amount": 1500}
+          {"item": "processed_magnum", "amount": 1500}
        ]       
    },
     "category": "turret"
