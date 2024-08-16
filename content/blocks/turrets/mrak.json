@@ -25,7 +25,7 @@
       },
    "requirements": [
       {"item": "magnum", "amount": 45},
-      {"item": "processed_Magnum", "amount": 15}   
+      {"item": "processed_magnum", "amount": 15}   
    ],
    "research": {
        "parent": "fall",
