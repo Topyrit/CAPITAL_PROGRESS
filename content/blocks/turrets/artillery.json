@@ -73,6 +73,13 @@ voltrum/30
 crystal/20
 processed_magnum/50
     ],
+    "research": {
+       "parent": "mrak",
+       "requirements": [
+          {"item": "crystal", "amount": 500},
+          {"item": "processed_Magnum", "amount": 1500}
+       ]       
+   },
     "category": "turret"
 }
 
