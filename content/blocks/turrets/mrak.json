@@ -31,7 +31,7 @@
        "parent": "fall",
        "requirements": [
           {"item": "magnum", "amount": 500},
-          {"item": "processed_Magnum", "amount": 200}
+          {"item": "processed_magnum", "amount": 200}
        ]       
    },
    "category": "turret"
