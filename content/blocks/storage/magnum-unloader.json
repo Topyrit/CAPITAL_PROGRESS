@@ -1,1 +1,16 @@
-
+{
+"name": "magnum unloader",
+"type": "unloader",
+"update": true, 
+"solid": true,
+"health": 70,
+"hasItems": true,
+"configurable": true,
+"saveConfig": true,
+"itemCapacity": 0,
+"noUpdateDisabled": true,
+"clearOnDoubleTap": true,
+"unloadable": false,
+{
+  "research"
+  
