@@ -4,6 +4,9 @@
 "description": "generates a force field." 
 "type": "forceProjector"
 "health": 400,
+"consumes": {
+    "liquid":"liquid_lava/0.2"
+}
 "requirements":[
     {"item": "voltrum","amount":65},
     {"item": "magnum","amount ":10}
@@ -11,8 +14,8 @@
 "category": "effect",
 "size": 2,
 "radius": 70,
-"shieldHealth": 750,
-"cooldownNormal": 18,
+"shieldHealth": 250,
+"cooldownNormal": 10,
 "cooldownBrokenBase": 2,
  "research": {
   "parent": "magnum_shredder",
