@@ -3,9 +3,9 @@
 "localizedName": "magnum projector" 
 "description": "generates a force field." 
 "type": "forceProjector"
-"health": 400,
+"health": 200,
 "consumes": {
-    "liquid":"liquid_lava/0.8"
+    "liquid":"liquid_lava/0.5"
 }
 "requirements":[
     {"item": "voltrum","amount":65},
@@ -13,10 +13,10 @@
    ],
 "category": "effect",
 "size": 2,
-"radius": 70,
+"radius": 90,
 "shieldHealth": 120,
-"cooldownNormal": 20,
-"cooldownBrokenBase": 10,
+"cooldownNormal": 50,
+"cooldownBrokenBase": 50,
  "research": {
   "parent": "fall",
   "requirements":
