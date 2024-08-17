@@ -3,6 +3,7 @@
 "localizedName": "magnum projector" 
 "description": "generates a force field." 
 "type": "forceProjector"
+"hasItems": false,
 "health": 200,
 "consumes": {
     "liquid":"liquid_lava/0.5"
@@ -15,6 +16,7 @@
 "size": 2,
 "radius": 90,
 "shieldHealth": 120,
+"regen": 3,
 "cooldownNormal": 50,
 "cooldownBrokenBase": 50,
  "research": {
