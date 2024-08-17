@@ -1,1 +1,12 @@
+{
+"difficulty": 8,
+"planet": "aprotix",
+"sector": 57,
+  "research": {
+    "parent": "Magnum-Headquarters"
+      "type": "SectorComplete",
+      "preset": "launch"
+    }
+}
+
 
