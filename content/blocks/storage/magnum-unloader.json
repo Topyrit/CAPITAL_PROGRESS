@@ -11,6 +11,16 @@
 "noUpdateDisabled": true,
 "clearOnDoubleTap": true,
 "unloadable": false,
-{
-  "research"
-  
+"requirements":
+  [
+    {"item": "magnum", "amount": 50}
+  ],
+  "research": 
+  {
+  "parent": "fall",
+  "requirements": 
+    [
+      {"item": "magnum", "amount": 550}
+    ]       
+  }
+}
