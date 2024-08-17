@@ -15,10 +15,9 @@
 "category": "effect",
 "size": 2,
 "radius": 90,
-"shieldHealth": 120,
+"max": 120,
 "regen": 3,
-"cooldownNormal": 50,
-"cooldownBrokenBase": 50,
+"cooldown": 50
  "research": {
   "parent": "fall",
   "requirements":
