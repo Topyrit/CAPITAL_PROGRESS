@@ -5,7 +5,7 @@
   "research": {
     "parent": "Magnum-Headquarters"
       "type": "SectorComplete",
-      "preset": "launch"
+      "preset": "Magnum-Headquarters"
     }
 }
 
