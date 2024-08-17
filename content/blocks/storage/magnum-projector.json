@@ -18,7 +18,6 @@ voltrum/50
 "shieldHealth": 750,
 "cooldownNormal": 18,
 "cooldownBrokenBase": 2,
-  {
   "parent": "mrak",
   "requirements":
   [
