@@ -5,20 +5,20 @@
 "type": "forceProjector"
 "health": 400,
 "requirements": [ 
-magnum/10
-voltrum/50
+"magnum"/10
+"voltrum"/50
 ] 
 "consumes": { 
 "power": 1.5 
 } 
  
-"category": effect,
+"category": "effect",
 "size": 2,
 "radius": 70,
 "shieldHealth": 750,
 "cooldownNormal": 18,
 "cooldownBrokenBase": 2,
-  "parent": "mrak",
+ "parent": "mrak",
   "requirements":
   [
     {"item": "magnum", "amount": 500},
