@@ -5,7 +5,7 @@
 "type": "forceProjector"
 "health": 400,
 "consumes": {
-    "liquid":"liquid_lava/3.5"
+    "liquid":"liquid_lava/0.8"
 }
 "requirements":[
     {"item": "voltrum","amount":65},
