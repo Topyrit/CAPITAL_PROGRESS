@@ -1,6 +1,7 @@
 {
 "difficulty": 6,
 "planet": "aprotix",
+"alwaysUnlocked": true,
 "sector": 57,
   "research": {
     "parent": "Magnum-Headquarters"
