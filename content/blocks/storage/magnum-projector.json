@@ -5,7 +5,7 @@
 "type": "forceProjector"
 "health": 400,
 "consumes": {
-    "liquid":"liquid_lava/0.2"
+    "liquid":"liquid_lava/3.5"
 }
 "requirements":[
     {"item": "voltrum","amount":65},
@@ -14,9 +14,9 @@
 "category": "effect",
 "size": 2,
 "radius": 70,
-"shieldHealth": 250,
-"cooldownNormal": 10,
-"cooldownBrokenBase": 2,
+"shieldHealth": 120,
+"cooldownNormal": 20,
+"cooldownBrokenBase": 10,
  "research": {
   "parent": "magnum_shredder",
   "requirements":
