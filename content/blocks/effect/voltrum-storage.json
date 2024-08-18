@@ -1,1 +1,13 @@
-
+{ 
+  "name": "Voltrum Storage",
+  "description": "Stores items.",
+  "type": "StorageBlock",
+  "itemCapacity": 500,
+  "size": 2,
+  "health": 850
+  "requirments": [
+    {"item": "voltrum", "amount": 250}
+  ],
+  "research": "fall",
+  "category": "effect"
+}
