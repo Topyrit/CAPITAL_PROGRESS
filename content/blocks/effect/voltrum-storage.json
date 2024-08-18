@@ -6,7 +6,7 @@
 "health": 480,
 "coreMerge": false,
 "itemCapacity": 350,
-"research": "itemunload",
+"research": "fall",
 "category": "effect",
 "requirements": [
   "voltrum/130",
