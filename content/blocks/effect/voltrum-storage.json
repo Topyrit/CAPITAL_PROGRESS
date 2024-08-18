@@ -6,10 +6,20 @@
 "health": 480,
 "coreMerge": false,
 "itemCapacity": 350,
+"Coremerge": true,
 "research": "fall",
 "category": "effect",
 "requirements": [
   "voltrum/130",
   "magnum/60"
 ]
+"research": 
+  {
+  "parent": "fall",
+  "requirements": 
+    [
+      {"item": "voltrum", "amount": 750}
+    ]       
+  }
 }
+
