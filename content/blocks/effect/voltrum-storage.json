@@ -1,13 +1,15 @@
-{ 
-  "name": "Voltrum Storage",
-  "description": "Stores items.",
-  "type": "StorageBlock",
-  "itemCapacity": 500,
-  "size": 2,
-  "health": 850
-  "requirments": [
-    {"item": "voltrum", "amount": 250}
-  ],
-  "research": "fall",
-  "category": "effect"
+{
+"name": "voltrum Storage",
+"description": "Stores a large number of resources. does not increase the capacity of the core.",
+"type": "StorageBlock",
+"size": 2,
+"health": 480,
+"coreMerge": false,
+"itemCapacity": 350,
+"research": "itemunload",
+"category": "effect",
+"requirements": [
+  "voltrum/130",
+  "magnum/60"
+]
 }
