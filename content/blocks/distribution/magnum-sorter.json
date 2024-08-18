@@ -1,1 +1,12 @@
-
+{
+"type": "Sorter",
+"health": 80,
+"requirements": [
+  {"item": "magnum","amount":4}
+] 
+"category": "distribution",
+"research": "magnum-conveyor"
+"researchCost": [
+    {"item": "magnum","amount":65},
+]
+}
