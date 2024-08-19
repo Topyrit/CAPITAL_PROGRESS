@@ -32,7 +32,7 @@
       "rotate": true,
       "rotateSpeed":2.5
       "shoot": {
-        "type": "shotate",
+        "type": "ShootAlternate",
         "shots": 6,
         "barrels": 3,
         "spread": 1.5,
@@ -57,7 +57,16 @@
         "splashDamage": 5,
         "hitEffect": "blastExplosion",
         "despawnEffect": "blastExplosion"
-     }
+    "abilities": [
+ {
+              "type": "UnitSpawnAbility",
+              "spawnX": 0,
+              "spawnY": -20,
+              "unit": "gasp",
+              "spawnTime": 900
+  }
+    ]
+      }
      }
      
      
