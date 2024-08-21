@@ -1,7 +1,7 @@
 {
   "type": "WallCrafter",
-  "name": "mine",
-  "description": "crushes a wall of crystale "
+  "name": "Crystal crusher",
+  "description": "crushes a wall of crystals "
   "size": 3,
   "category": "production",
   "research": "magnum_drill",
@@ -13,7 +13,7 @@
   "attribute": "crystal",
   "ambientSound": "drill",
   "ambientSoundVolume": 0.08,
-  "alwaysUnlocked": true,
+  "alwaysUnlocked": false,
   "squareSprite": false
 "research": 
   {
@@ -24,4 +24,3 @@
     ]       
   }
 }
-
