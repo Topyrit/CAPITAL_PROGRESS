@@ -1,6 +1,7 @@
 {
 "difficulty": 5,
 "planet": "aprotix",
+"alwaysUnlocked":false,
 "sector": 63,
   "research": {
     "parent": "launch"
@@ -8,4 +9,3 @@
       "preset": "launch"
     }
 }
-
