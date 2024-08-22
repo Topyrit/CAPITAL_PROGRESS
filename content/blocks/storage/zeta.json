@@ -1,1 +1,39 @@
+{
+  "type": "CoreBlock",
+  "name": "zeta",
+  "description": "3 the core of the research branch. produces a combat unit connect",
+  "size": 4,
+  "alwaysUnlocked":false,
+  "health": 4900,
+  "armour":7,
+  "itemCapacity": 8500,
+  "requirements": [
+    {
+      "item": "magnum",
+      "amount": 5400
+    },
+    {
+      "item": "termium",
+      "amount": 6400
+    }
+    {
+      "item": "voltrum",
+      "amount": 3400
+    },
+  ],
+  "category": "effect",
+  "research": 
+  {
+    "parent": "process",
+    "requirements": 
+    [
+      {"item": "magnum", "amount": 20950},
+      {"item": "voltrum", "amount": 8520},
+      {"item": "termium", "amount": 12520}
+    ]       
+  },
+  "unitType": "connect",
+  "unitCapModifier": 32,
+  "incinerateNonBuildable":true
+}
 
