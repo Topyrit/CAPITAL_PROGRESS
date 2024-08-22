@@ -1,1 +1,28 @@
-
+{
+    "type": "Drill",
+    "name": "voltrum drill",
+    "description":"power drill",
+    "size": 2,
+    "drillTime": 300,
+    "tier": 4,
+    "floatRotateSpeed": 6,
+    "drillEffectChance": 1.5,
+    "itemCapacity":10,
+    "drawMineItem":false,
+  "requirements":
+  [
+    {"item":"voltrum","amount":20}
+  ],
+  "consumes": {
+    "power": 0.2,
+  },
+  "research": 
+  {
+    "parent": "magnum-drill",
+    "requirements": 
+    [
+      {"item": "voltrum", "amount": 1450}
+    ]       
+  },
+  "category":"production"
+}
