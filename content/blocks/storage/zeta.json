@@ -24,7 +24,7 @@
   "category": "effect",
   "research": 
   {
-    "parent": "process",
+    "parent": "procces",
     "requirements": 
     [
       {"item": "magnum", "amount": 20950},
