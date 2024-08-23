@@ -8,7 +8,6 @@
   "radioactivity": 0,
   "flammability":0.40,
   "explosiveness": 0,
-  "localizedName": "Voltrum",
   "color": "FFCD66FF",
   "research": {
     "parent": "magnum"
