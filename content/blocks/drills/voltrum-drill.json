@@ -18,7 +18,7 @@
   },
   "research": 
   {
-    "parent": "magnum-drill",
+    "parent": "crystal-shredder",
     "requirements": 
     [
       {"item": "voltrum", "amount": 1450}
