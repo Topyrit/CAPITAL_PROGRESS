@@ -1,6 +1,5 @@
 {
 "name": "magnum projector"
-"localizedName": "magnum projector" 
 "description": "generates a force field." 
 "type": "forceProjector"
 "hasItems": false,
