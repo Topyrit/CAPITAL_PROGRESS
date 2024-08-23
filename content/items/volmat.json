@@ -7,7 +7,6 @@
   "radioactivity": 0,
   "flammability":0,
   "explosiveness": 0,
-  "localizedName": "Volmat",
   "color": "E28654FF",
   "research": {
     "parent": "voltrum"
