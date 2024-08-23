@@ -3,9 +3,16 @@
 "planet": "aprotix",
 "alwaysUnlocked":false,
 "sector": 63,
-  "research": {
-    "parent": "launch"
-      "type": "SectorComplete",
-      "preset": "launch"
-    }
+"research":{
+"parent": "launch",
+"objectives": [
+"mrak"
+],
+},
+"research":{
+"parent": "launch",
+"objectives": [
+"procces"
+],
+},
 }
