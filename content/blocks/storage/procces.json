@@ -24,8 +24,8 @@
     "parent": "fall",
     "requirements": 
     [
-      {"item": "magnum", "amount": 250},
-      {"item": "termium", "amount": 250}
+      {"item": "magnum", "amount": 8250},
+      {"item": "termium", "amount": 7250}
     ]       
   },
   "unitType": "connect",
