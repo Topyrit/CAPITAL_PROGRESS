@@ -8,7 +8,6 @@
   "radioactivity": 0.03,
   "flammability":0.03,
   "explosiveness": 0.03,
-  "localizedName": "crystal",
   "color": "FFCD66FF",
   "research": {
     "parent": "voltrum"
