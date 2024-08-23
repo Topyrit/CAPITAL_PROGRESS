@@ -3,9 +3,22 @@
 "planet": "aprotix",
 "alwaysUnlocked": false,
 "sector": 57,
-  "research": {
-    "parent": "Magnum-Headquarters"
-      "type": "SectorComplete",
-      "preset": "Magnum-Headquarters"
-    }
+"research":{
+"parent": "Magnum-Headquarters",
+"objectives": [
+"voltrum"
+],
+},
+"research":{
+"parent": "Magnum-Headquarters",
+"objectives": [
+"help_factory"
+],
+},
+"research":{
+"parent": "Magnum-Headquarters",
+"objectives": [
+"spider-constructor"
+],
+},
 }
